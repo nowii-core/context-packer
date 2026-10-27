@@ -162,12 +162,6 @@ npm test          # runs native node:test, no dependencies required
 node bin/ctx-pack.js --help
 ```
 
-### Roadmap
-- [ ] `--diff` to pack only files changed in git.
-- [ ] `--compress` to strip comments / collapse function bodies.
-- [ ] Model-specific token counting.
-- [ ] `--watch` to re-pack on change.
-
 ---
 
 ## License
