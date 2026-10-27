@@ -1,0 +1,45 @@
+{
+  "name": "ctx-pack",
+  "version": "1.0.0",
+  "description": "Pack any codebase into a single, LLM-ready Markdown prompt. Respects .gitignore, redacts secrets, estimates tokens. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "ctx-pack": "bin/ctx-pack.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/ctx-pack.js"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "keywords": [
+    "llm",
+    "context",
+    "prompt",
+    "ai",
+    "cli",
+    "claude",
+    "chatgpt",
+    "codebase",
+    "tokens",
+    "developer-tools"
+  ],
+  "author": "nowii <https://github.com/nowii-core>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowii-core/context-packer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nowii-core/context-packer/issues"
+  },
+  "homepage": "https://github.com/nowii-core/context-packer#readme"
+}
