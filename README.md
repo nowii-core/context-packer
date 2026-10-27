@@ -48,6 +48,12 @@ npx ctx-pack            # pack the current folder straight to your clipboard
 
 ---
 
+## Preview
+
+![ctx-pack Screenshot](Screenshot-1.png)
+
+---
+
 ## Key Features
 
 - **Built for Prompts:** Generates one single Markdown document containing a project tree and every file in a fenced, language-tagged block.
